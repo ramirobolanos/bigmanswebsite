@@ -1,40 +1,47 @@
 ---
+import beach from "/Users/ramirobolanos/bigmanswebsite/public/beach.jpg";
+import boats from "/Users/ramirobolanos/bigmanswebsite/public/boats.jpg";
+import skyline from "/Users/ramirobolanos/bigmanswebsite/public/skyline.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+
 ---
 
 <BaseLayout title="Projects" sideBarActiveItemID="services">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Services Header</div>
+    <div class="text-3xl w-full font-bold mb-5">About me</div>
   </div>
+  <text class="text-lg">
+     <b>Why Engineering?</b> <br>
+     Engineering, for me, is the exhilarating intersection of curiosity, creation, and efficiency. From my early days of taking things apart just to see how they tick, to the satisfaction of 
+     piecing them back together with newfound understanding, I've found a profound joy in the challenges and puzzles that engineering presents. It's the dynamic blend of problem-solving, innovation, 
+     and the constant pursuit of understanding <b>"why"</b> that fuels my passion for this field. What truly excites me is the multi-disciplinary nature of engineering, where
+     diverse skills converge to create solutions that are not just effective but also efficient. Simply put, I love engineering because it's the playground where curiosity meets craftsmanship, 
+     efficiency is paramount, and every project is an opportunity to bring ideas to life.
+    <br>
+    <br>
+    
+  </text>
 
-  <HorizontalCard
-    title="Service 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    badge="NEW"
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Service 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Service 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Service 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
+  <text class="text-lg">
+    You'll find me out and about the city when I'm not busy working. 
+    I love going for walks along the seawall or visiting new cafes and exploring new parts of the city. 
+    I also enjoy a nice hike on the Northshore, or finding a nice quiet rocky beach to relax and watch the tide come in
+
+    It’s rare that I step out of the house with out on my film cameras to capture landscapes, memories or pictures of friends
+    I’m a big coffee nerd too. I love a nicely pulled shot of espresso or a lovely pour over from a local cafe
+
+    I have some gear of my own to get me started in the mornings but it’s nothing too crazy.
+
+    I also love to eat and cook.It’s a lot of fun for me to research new techniques and or recipes online and try them out for my friends and family.
+
+  
+     
+ </text>
+<a href="https://ibb.co/4Y4W912"><img src="https://i.ibb.co/xfzhPFY/boats.jpg" alt="boats" border="0"></a>
+<a href="https://ibb.co/KLHgXtS"><img src="https://i.ibb.co/HxQyVc3/skyline.jpg" alt="skyline" border="0"></a>
+<a href="https://ibb.co/mSXprq6"><img src="https://i.ibb.co/yVY2myW/beach.jpg" alt="beach" border="0"></a>
+
+
+
 </BaseLayout>
