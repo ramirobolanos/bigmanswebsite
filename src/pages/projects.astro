@@ -5,47 +5,60 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title="Electric Stand Up Paddle Board"
+    img="/Paddle Board.png"
+    desc="Introducing the next innovation in electric paddleboard technology, an electric paddleboard conversion kit aimed at safety and performance. With most designs on the market taking one of two approaches, a sleek design with low battery life, or a bulky design which would be cumbersome to avoid on the board, this project aims to bridge the gap between the two with a sleek battery pack designed to slide seamlessly into a carrying bag. This project features a motor, impeller,  removable fin, rudder, and a discreet low-profile battery, with user control for speed and steering."
     url="#"
-    badge="NEW"
+    badge={['IN PROGRESS! ']}
+    
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title="Custom Macro Key Pad"
+    img="/Macro.png"
+    desc="Custom-built Macro Pad for WFH Dad. Tuned for Zoom, Slack, and Excel shortcuts, as well as media control. Complete with underglow and machined anodized aluminum housing and USB-C interface."
     url="#"
+    badge={['IN PROGRESS! ', 'Personal Project']}
   />
 
+  <!--
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
   </div>
+  -->
 
+ 
+  <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title="Automatic Poker Dealer"
+    img="/PDR.png"
+    desc="The Automatic Poker Dealer, designed to replace human dealers in home and tournament poker games, efficiently handles card distribution. Using DC motors and a stepper motor, the machine successfully ejects and removes cards, while the Flipper and Elevator subsystems ensure precise card orientation."
     url="#"
-    badge="FOSS"
+  
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title="ThermaCup"
+    img="/Thermacup.jpg"
+    desc="Thermacup is a portable drinking vessle that keeps your beverages at a user set temperature."
     url="#"
-  />
-  <div class="divider my-0"></div>
+    
+  /><div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title="Line Following Robot ('Sunny')"
+    img="/Sunny.png"
+    desc="The Line Follower Robot (LFR) is autonomously guided, equipped to track a line marked on the ground by detecting either a dark line on a white surface or a white line on a dark surface. It achieves this functionality through the use of IR sensors."
     url="#"
   />
+  <HorizontalCard
+    title="Magic Mirror"
+    img="/Mirror.png"
+    desc="Raspberry Pi-powered 'smart' mirror. Utilized the MagicMirror² software and implemented Google Assistant, Calendar, and Spotify integrations"
+    url="#"
+    badge={['Personal Project']}
+    />
 </BaseLayout>
